@@ -1,0 +1,1 @@
+mpif90 -O2 sizes.f90 commons_3d.f90 readata.f90 model.f90 set_nodes.f90 msource.f90  pri_fields_newz0.f90  mat_coef_stripes.f90 r-b-proc.f90 rhs.f90 set_bet_del_alp.f90 solve_sys.f90 calc_error.f90 inguess.f90 transm.f90 output.f90 max3d-par_mpi.f90 

@@ -1,0 +1,919 @@
+
+ # subdomains  in x-direction nx =    50
+ # subdomains  in y-direction ny =    10
+ # subdomains  in z-direction nz =     4
+
+ # subdomains  in x-direction ngx =    50
+ # subdomains  in y-direction ngy =    50
+ # subdomains  in z-direction ngz =    40
+
+   maxiter =  max. # inner iterations  9999
+
+   reduc =  relative error required        0.99999997E-04
+
+  vector xnod  in readata 
+
+
+    0.00000E+00    0.50000E+04    0.10000E+05    0.15000E+05    0.20000E+05
+    0.25000E+05    0.30000E+05    0.35000E+05    0.40000E+05    0.45000E+05
+    0.50000E+05    0.55000E+05    0.60000E+05    0.65000E+05    0.70000E+05
+    0.75000E+05    0.80000E+05    0.85000E+05    0.90000E+05    0.95000E+05
+    0.10000E+06    0.10500E+06    0.11000E+06    0.11500E+06    0.12000E+06
+    0.12500E+06    0.13000E+06    0.13500E+06    0.14000E+06    0.14500E+06
+    0.15000E+06    0.15500E+06    0.16000E+06    0.16500E+06    0.17000E+06
+    0.17500E+06    0.18000E+06    0.18500E+06    0.19000E+06    0.19500E+06
+    0.20000E+06    0.20500E+06    0.21000E+06    0.21500E+06    0.22000E+06
+    0.22500E+06    0.23000E+06    0.23500E+06    0.24000E+06    0.24500E+06
+    0.25000E+06
+
+  vector ynod  in readata 
+
+
+    0.00000E+00    0.50000E+04    0.10000E+05    0.15000E+05    0.20000E+05
+    0.25000E+05    0.30000E+05    0.35000E+05    0.40000E+05    0.45000E+05
+    0.50000E+05    0.55000E+05    0.60000E+05    0.65000E+05    0.70000E+05
+    0.75000E+05    0.80000E+05    0.85000E+05    0.90000E+05    0.95000E+05
+    0.10000E+06    0.10500E+06    0.11000E+06    0.11500E+06    0.12000E+06
+    0.12500E+06    0.13000E+06    0.13500E+06    0.14000E+06    0.14500E+06
+    0.15000E+06    0.15500E+06    0.16000E+06    0.16500E+06    0.17000E+06
+    0.17500E+06    0.18000E+06    0.18500E+06    0.19000E+06    0.19500E+06
+    0.20000E+06    0.20500E+06    0.21000E+06    0.21500E+06    0.22000E+06
+    0.22500E+06    0.23000E+06    0.23500E+06    0.24000E+06    0.24500E+06
+    0.25000E+06
+
+  vector znod  in readata 
+
+
+    0.00000E+00    0.26946E+05    0.49781E+05    0.69133E+05    0.85532E+05
+    0.99431E+05    0.11121E+06    0.12119E+06    0.12965E+06    0.13682E+06
+    0.14289E+06    0.14804E+06    0.15240E+06    0.15610E+06    0.15923E+06
+    0.16189E+06    0.16414E+06    0.16605E+06    0.16766E+06    0.16903E+06
+    0.17019E+06    0.17118E+06    0.17201E+06    0.17272E+06    0.17332E+06
+    0.17382E+06    0.17425E+06    0.17462E+06    0.17493E+06    0.17519E+06
+    0.17541E+06    0.17560E+06    0.17576E+06    0.17589E+06    0.17601E+06
+    0.17610E+06    0.17619E+06    0.17626E+06    0.17632E+06    0.17636E+06
+    0.18000E+06
+
+  vector hx  in readata 
+
+
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+
+  vector hy  in readata 
+
+
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04    0.50000E+04
+
+  vector hz  in readata 
+
+
+    0.26946E+05    0.22835E+05    0.19352E+05    0.16400E+05    0.13898E+05
+    0.11778E+05    0.99815E+04    0.84589E+04    0.71685E+04    0.60750E+04
+    0.51483E+04    0.43630E+04    0.36975E+04    0.31334E+04    0.26555E+04
+    0.22504E+04    0.19071E+04    0.16162E+04    0.13697E+04    0.11607E+04
+    0.98366E+03    0.83361E+03    0.70645E+03    0.59869E+03    0.50736E+03
+    0.42997E+03    0.36438E+03    0.30880E+03    0.26169E+03    0.22177E+03
+    0.18794E+03    0.15927E+03    0.13498E+03    0.11439E+03    0.96939E+02
+    0.82152E+02    0.69620E+02    0.59000E+02    0.50000E+02    0.36350E+04
+
+ Primary Fields (six layer model) 
+ thickness (layer 1 - Air) =       0.36350000E+04 m  
+ thickness (layer 2) =       0.76934400E+05 m  
+ thickness (layer 3) =       0.13898180E+05 m  
+ thickness (layer 4) =       0.16399870E+05 m  
+ thickness (layer 5) =       0.19351840E+05 m  
+ conductivity (layer 1 - Air) =       0.10000000E-13 1/ohm*m 
+ conductivity (layer 2) =       0.10000000E-01 1/ohm*m 
+ conductivity (layer 3) =       0.10000000E-01 1/ohm*m 
+ conductivity (layer 4) =       0.10000000E-01 1/ohm*m 
+ conductivity (layer 5) =       0.10000000E-01 1/ohm*m 
+ conductivity (semispace) =       0.10000000E-01 1/ohm*m 
+ indice            1  posicion de la interfaz en z    180000.000000000     
+ indice            2  posicion de la interfaz en z    176365.000000000     
+ indice            3  posicion de la interfaz en z    99430.6000000000     
+ indice            4  posicion de la interfaz en z    85532.4200000000     
+ indice            5  posicion de la interfaz en z    69132.5500000000     
+ indice            6  posicion de la interfaz en z    49780.7100000000     
+ indice            7  posicion de la interfaz en z   0.000000000000000E+000
+ e1   3635.00000000000      e2   76934.4039900000      e3
+   13898.1900000000      e4   16399.8700000000      e5   19351.8400000000     
+ posicion de la superficie en el modelo   176365.000000000     
+   180000.000000000        3635.00000000000     
+ posicion de la superficie segun la grilla          40   176365.000000000     
+ frequency            1  from            1
+
+  frequency =       0.10000000E-03 Hz 
+
+ omega =       0.62831853E-03 Hz 
+
+   inner iteration  =    10
+   relative error   =       0.14111623    
+
+   inner iteration  =    20
+   relative error   =       0.51348258E-01
+
+   inner iteration  =    30
+   relative error   =       0.32102321E-01
+
+   inner iteration  =    40
+   relative error   =       0.23120392E-01
+
+   inner iteration  =    50
+   relative error   =       0.18098025E-01
+
+   inner iteration  =    60
+   relative error   =       0.11768159E-01
+
+   inner iteration  =    70
+   relative error   =       0.85863299E-02
+
+   inner iteration  =    80
+   relative error   =       0.56571433E-02
+
+   inner iteration  =    90
+   relative error   =       0.52455637E-02
+
+   inner iteration  =   100
+   relative error   =       0.39628634E-02
+
+   inner iteration  =   110
+   relative error   =       0.35297057E-02
+
+   inner iteration  =   120
+   relative error   =       0.31396412E-02
+
+   inner iteration  =   130
+   relative error   =       0.27677776E-02
+
+   inner iteration  =   140
+   relative error   =       0.24130379E-02
+
+   inner iteration  =   150
+   relative error   =       0.22186156E-02
+
+   inner iteration  =   160
+   relative error   =       0.20802786E-02
+
+   inner iteration  =   170
+   relative error   =       0.19311941E-02
+
+   inner iteration  =   180
+   relative error   =       0.18304120E-02
+
+   inner iteration  =   190
+   relative error   =       0.17638574E-02
+
+   inner iteration  =   200
+   relative error   =       0.16914136E-02
+
+   inner iteration  =   210
+   relative error   =       0.15835658E-02
+
+   inner iteration  =   220
+   relative error   =       0.15220094E-02
+
+   inner iteration  =   230
+   relative error   =       0.14849412E-02
+
+   inner iteration  =   240
+   relative error   =       0.14290237E-02
+
+   inner iteration  =   250
+   relative error   =       0.13674935E-02
+
+   inner iteration  =   260
+   relative error   =       0.13189072E-02
+
+   inner iteration  =   270
+   relative error   =       0.12801516E-02
+
+   inner iteration  =   280
+   relative error   =       0.12392424E-02
+
+   inner iteration  =   290
+   relative error   =       0.11972950E-02
+
+   inner iteration  =   300
+   relative error   =       0.11570955E-02
+
+   inner iteration  =   310
+   relative error   =       0.11211243E-02
+
+   inner iteration  =   320
+   relative error   =       0.10897115E-02
+
+   inner iteration  =   330
+   relative error   =       0.10554090E-02
+
+   inner iteration  =   340
+   relative error   =       0.10191473E-02
+
+   inner iteration  =   350
+   relative error   =       0.98829367E-03
+
+   inner iteration  =   360
+   relative error   =       0.95961704E-03
+
+   inner iteration  =   370
+   relative error   =       0.92885103E-03
+
+   inner iteration  =   380
+   relative error   =       0.89970633E-03
+
+   inner iteration  =   390
+   relative error   =       0.87320566E-03
+
+   inner iteration  =   400
+   relative error   =       0.84651615E-03
+
+   inner iteration  =   410
+   relative error   =       0.81997755E-03
+
+   inner iteration  =   420
+   relative error   =       0.79490164E-03
+
+   inner iteration  =   430
+   relative error   =       0.77062114E-03
+
+   inner iteration  =   440
+   relative error   =       0.74698528E-03
+
+   inner iteration  =   450
+   relative error   =       0.72442587E-03
+
+   inner iteration  =   460
+   relative error   =       0.70251533E-03
+
+   inner iteration  =   470
+   relative error   =       0.68114365E-03
+
+   inner iteration  =   480
+   relative error   =       0.66061968E-03
+
+   inner iteration  =   490
+   relative error   =       0.64073454E-03
+
+   inner iteration  =   500
+   relative error   =       0.62138077E-03
+
+   inner iteration  =   510
+   relative error   =       0.60280575E-03
+
+   inner iteration  =   520
+   relative error   =       0.58491742E-03
+
+   inner iteration  =   530
+   relative error   =       0.56753292E-03
+
+   inner iteration  =   540
+   relative error   =       0.55077462E-03
+
+   inner iteration  =   550
+   relative error   =       0.53462647E-03
+
+   inner iteration  =   560
+   relative error   =       0.51892901E-03
+
+   inner iteration  =   570
+   relative error   =       0.50375922E-03
+
+   inner iteration  =   580
+   relative error   =       0.48919412E-03
+
+   inner iteration  =   590
+   relative error   =       0.47511119E-03
+
+   inner iteration  =   600
+   relative error   =       0.46146623E-03
+
+   inner iteration  =   610
+   relative error   =       0.44831583E-03
+
+   inner iteration  =   620
+   relative error   =       0.43562223E-03
+
+   inner iteration  =   630
+   relative error   =       0.42332677E-03
+
+   inner iteration  =   640
+   relative error   =       0.41144463E-03
+
+   inner iteration  =   650
+   relative error   =       0.39998629E-03
+
+   inner iteration  =   660
+   relative error   =       0.38892146E-03
+
+   inner iteration  =   670
+   relative error   =       0.37822027E-03
+
+   inner iteration  =   680
+   relative error   =       0.36787091E-03
+
+   inner iteration  =   690
+   relative error   =       0.35786921E-03
+
+   inner iteration  =   700
+   relative error   =       0.34820185E-03
+
+   inner iteration  =   710
+   relative error   =       0.33884959E-03
+
+   inner iteration  =   720
+   relative error   =       0.32980398E-03
+
+   inner iteration  =   730
+   relative error   =       0.32105908E-03
+
+   inner iteration  =   740
+   relative error   =       0.31259873E-03
+
+   inner iteration  =   750
+   relative error   =       0.30440745E-03
+
+   inner iteration  =   760
+   relative error   =       0.29647778E-03
+
+   inner iteration  =   770
+   relative error   =       0.28880249E-03
+
+   inner iteration  =   780
+   relative error   =       0.28137150E-03
+
+   inner iteration  =   790
+   relative error   =       0.27417449E-03
+
+   inner iteration  =   800
+   relative error   =       0.26720177E-03
+
+   inner iteration  =   810
+   relative error   =       0.26044396E-03
+
+   inner iteration  =   820
+   relative error   =       0.25389230E-03
+
+   inner iteration  =   830
+   relative error   =       0.24753995E-03
+
+   inner iteration  =   840
+   relative error   =       0.24138164E-03
+
+   inner iteration  =   850
+   relative error   =       0.23541087E-03
+
+   inner iteration  =   860
+   relative error   =       0.22961895E-03
+
+   inner iteration  =   870
+   relative error   =       0.22399701E-03
+
+   inner iteration  =   880
+   relative error   =       0.21853780E-03
+
+   inner iteration  =   890
+   relative error   =       0.21323636E-03
+
+   inner iteration  =   900
+   relative error   =       0.20808905E-03
+
+   inner iteration  =   910
+   relative error   =       0.20309130E-03
+
+   inner iteration  =   920
+   relative error   =       0.19823699E-03
+
+   inner iteration  =   930
+   relative error   =       0.19351953E-03
+
+   inner iteration  =   940
+   relative error   =       0.18893315E-03
+
+   inner iteration  =   950
+   relative error   =       0.18447334E-03
+
+   inner iteration  =   960
+   relative error   =       0.18013644E-03
+
+   inner iteration  =   970
+   relative error   =       0.17591890E-03
+
+   inner iteration  =   980
+   relative error   =       0.17181675E-03
+
+   inner iteration  =   990
+   relative error   =       0.16782566E-03
+
+   inner iteration  =  1000
+   relative error   =       0.16394150E-03
+
+   inner iteration  =  1010
+   relative error   =       0.16016071E-03
+
+   inner iteration  =  1020
+   relative error   =       0.15647990E-03
+
+   inner iteration  =  1030
+   relative error   =       0.15289567E-03
+
+   inner iteration  =  1040
+   relative error   =       0.14940480E-03
+
+   inner iteration  =  1050
+   relative error   =       0.14600441E-03
+
+   inner iteration  =  1060
+   relative error   =       0.14269187E-03
+
+   inner iteration  =  1070
+   relative error   =       0.13946459E-03
+
+   inner iteration  =  1080
+   relative error   =       0.13631984E-03
+
+   inner iteration  =  1090
+   relative error   =       0.13325472E-03
+
+   inner iteration  =  1100
+   relative error   =       0.13026648E-03
+
+   inner iteration  =  1110
+   relative error   =       0.12735275E-03
+
+   inner iteration  =  1120
+   relative error   =       0.12451156E-03
+
+   inner iteration  =  1130
+   relative error   =       0.12174110E-03
+
+   inner iteration  =  1140
+   relative error   =       0.11903936E-03
+
+   inner iteration  =  1150
+   relative error   =       0.11640413E-03
+
+   inner iteration  =  1160
+   relative error   =       0.11383317E-03
+
+   inner iteration  =  1170
+   relative error   =       0.11132448E-03
+
+   inner iteration  =  1180
+   relative error   =       0.10887638E-03
+
+   inner iteration  =  1190
+   relative error   =       0.10648737E-03
+
+   inner iteration  =  1200
+   relative error   =       0.10415595E-03
+
+   inner iteration  =  1210
+   relative error   =       0.10188050E-03
+
+  convergence achieved in  1219 inner iterations 
+ relative error value =       0.99879031E-04
+
+ izsup = (#nodo)           40
+ fila de proces   indice z inicial    indice z final
+           0          37          40
+           1          33          36
+           2          29          32
+           3          25          28
+           4          21          24
+           5          17          20
+           6          13          16
+           7           9          12
+           8           5           8
+           9           1           4
+ grupo local de procesadores           0           1           2           3
+           4
+ la superficie es el nodo global          40
+ el valor local de izsup es (#elemento para computo
+ de los campos en superficie)           3
+ el aire ocupa           1 elementos en la vertical
+ soy procesador local           0
+ soy procesador local           2
+ soy procesador local           3
+ soy procesador local           4
+ soy procesador local           1
+ z de la sup. en output para campos primarios   176365.000000000     
+
+   inner iteration  =    10
+   relative error   =       0.15361365    
+
+   inner iteration  =    20
+   relative error   =       0.56466083E-01
+
+   inner iteration  =    30
+   relative error   =       0.34904232E-01
+
+   inner iteration  =    40
+   relative error   =       0.21920850E-01
+
+   inner iteration  =    50
+   relative error   =       0.15581542E-01
+
+   inner iteration  =    60
+   relative error   =       0.11786242E-01
+
+   inner iteration  =    70
+   relative error   =       0.90718406E-02
+
+   inner iteration  =    80
+   relative error   =       0.72970150E-02
+
+   inner iteration  =    90
+   relative error   =       0.61971080E-02
+
+   inner iteration  =   100
+   relative error   =       0.50146323E-02
+
+   inner iteration  =   110
+   relative error   =       0.42272649E-02
+
+   inner iteration  =   120
+   relative error   =       0.37351209E-02
+
+   inner iteration  =   130
+   relative error   =       0.34633787E-02
+
+   inner iteration  =   140
+   relative error   =       0.31281445E-02
+
+   inner iteration  =   150
+   relative error   =       0.27901609E-02
+
+   inner iteration  =   160
+   relative error   =       0.26319114E-02
+
+   inner iteration  =   170
+   relative error   =       0.25162784E-02
+
+   inner iteration  =   180
+   relative error   =       0.23715941E-02
+
+   inner iteration  =   190
+   relative error   =       0.21916923E-02
+
+   inner iteration  =   200
+   relative error   =       0.20807417E-02
+
+   inner iteration  =   210
+   relative error   =       0.20131530E-02
+
+   inner iteration  =   220
+   relative error   =       0.19141235E-02
+
+   inner iteration  =   230
+   relative error   =       0.18152547E-02
+
+   inner iteration  =   240
+   relative error   =       0.17412393E-02
+
+   inner iteration  =   250
+   relative error   =       0.16777774E-02
+
+   inner iteration  =   260
+   relative error   =       0.16043905E-02
+
+   inner iteration  =   270
+   relative error   =       0.15388846E-02
+
+   inner iteration  =   280
+   relative error   =       0.14832280E-02
+
+   inner iteration  =   290
+   relative error   =       0.14254872E-02
+
+   inner iteration  =   300
+   relative error   =       0.13695663E-02
+
+   inner iteration  =   310
+   relative error   =       0.13208322E-02
+
+   inner iteration  =   320
+   relative error   =       0.12732637E-02
+
+   inner iteration  =   330
+   relative error   =       0.12256910E-02
+
+   inner iteration  =   340
+   relative error   =       0.11820280E-02
+
+   inner iteration  =   350
+   relative error   =       0.11410570E-02
+
+   inner iteration  =   360
+   relative error   =       0.11006007E-02
+
+   inner iteration  =   370
+   relative error   =       0.10621587E-02
+
+   inner iteration  =   380
+   relative error   =       0.10263066E-02
+
+   inner iteration  =   390
+   relative error   =       0.99155892E-03
+
+   inner iteration  =   400
+   relative error   =       0.95814147E-03
+
+   inner iteration  =   410
+   relative error   =       0.92673843E-03
+
+   inner iteration  =   420
+   relative error   =       0.89614720E-03
+
+   inner iteration  =   430
+   relative error   =       0.86612203E-03
+
+   inner iteration  =   440
+   relative error   =       0.83802844E-03
+
+   inner iteration  =   450
+   relative error   =       0.81165957E-03
+
+   inner iteration  =   460
+   relative error   =       0.78586523E-03
+
+   inner iteration  =   470
+   relative error   =       0.76092146E-03
+
+   inner iteration  =   480
+   relative error   =       0.73740110E-03
+
+   inner iteration  =   490
+   relative error   =       0.71471103E-03
+
+   inner iteration  =   500
+   relative error   =       0.69245090E-03
+
+   inner iteration  =   510
+   relative error   =       0.67114915E-03
+
+   inner iteration  =   520
+   relative error   =       0.65097536E-03
+
+   inner iteration  =   530
+   relative error   =       0.63152167E-03
+
+   inner iteration  =   540
+   relative error   =       0.61271152E-03
+
+   inner iteration  =   550
+   relative error   =       0.59465215E-03
+
+   inner iteration  =   560
+   relative error   =       0.57722004E-03
+
+   inner iteration  =   570
+   relative error   =       0.56034876E-03
+
+   inner iteration  =   580
+   relative error   =       0.54410276E-03
+
+   inner iteration  =   590
+   relative error   =       0.52846785E-03
+
+   inner iteration  =   600
+   relative error   =       0.51339349E-03
+
+   inner iteration  =   610
+   relative error   =       0.49886102E-03
+
+   inner iteration  =   620
+   relative error   =       0.48482658E-03
+
+   inner iteration  =   630
+   relative error   =       0.47124176E-03
+
+   inner iteration  =   640
+   relative error   =       0.45810925E-03
+
+   inner iteration  =   650
+   relative error   =       0.44543600E-03
+
+   inner iteration  =   660
+   relative error   =       0.43318868E-03
+
+   inner iteration  =   670
+   relative error   =       0.42134006E-03
+
+   inner iteration  =   680
+   relative error   =       0.40988619E-03
+
+   inner iteration  =   690
+   relative error   =       0.39880636E-03
+
+   inner iteration  =   700
+   relative error   =       0.38807280E-03
+
+   inner iteration  =   710
+   relative error   =       0.37767907E-03
+
+   inner iteration  =   720
+   relative error   =       0.36762076E-03
+
+   inner iteration  =   730
+   relative error   =       0.35787985E-03
+
+   inner iteration  =   740
+   relative error   =       0.34843995E-03
+
+   inner iteration  =   750
+   relative error   =       0.33929278E-03
+
+   inner iteration  =   760
+   relative error   =       0.33042824E-03
+
+   inner iteration  =   770
+   relative error   =       0.32183319E-03
+
+   inner iteration  =   780
+   relative error   =       0.31349765E-03
+
+   inner iteration  =   790
+   relative error   =       0.30541258E-03
+
+   inner iteration  =   800
+   relative error   =       0.29756749E-03
+
+   inner iteration  =   810
+   relative error   =       0.28995458E-03
+
+   inner iteration  =   820
+   relative error   =       0.28256794E-03
+
+   inner iteration  =   830
+   relative error   =       0.27539954E-03
+
+   inner iteration  =   840
+   relative error   =       0.26844022E-03
+
+   inner iteration  =   850
+   relative error   =       0.26168140E-03
+
+   inner iteration  =   860
+   relative error   =       0.25511529E-03
+
+   inner iteration  =   870
+   relative error   =       0.24873546E-03
+
+   inner iteration  =   880
+   relative error   =       0.24253704E-03
+
+   inner iteration  =   890
+   relative error   =       0.23651534E-03
+
+   inner iteration  =   900
+   relative error   =       0.23066450E-03
+
+   inner iteration  =   910
+   relative error   =       0.22497788E-03
+
+   inner iteration  =   920
+   relative error   =       0.21944918E-03
+
+   inner iteration  =   930
+   relative error   =       0.21407245E-03
+
+   inner iteration  =   940
+   relative error   =       0.20884258E-03
+
+   inner iteration  =   950
+   relative error   =       0.20375582E-03
+
+   inner iteration  =   960
+   relative error   =       0.19880881E-03
+
+   inner iteration  =   970
+   relative error   =       0.19399737E-03
+
+   inner iteration  =   980
+   relative error   =       0.18931657E-03
+
+   inner iteration  =   990
+   relative error   =       0.18476144E-03
+
+   inner iteration  =  1000
+   relative error   =       0.18032755E-03
+
+   inner iteration  =  1010
+   relative error   =       0.17601135E-03
+
+   inner iteration  =  1020
+   relative error   =       0.17181002E-03
+
+   inner iteration  =  1030
+   relative error   =       0.16772058E-03
+
+   inner iteration  =  1040
+   relative error   =       0.16373952E-03
+
+   inner iteration  =  1050
+   relative error   =       0.15986307E-03
+
+   inner iteration  =  1060
+   relative error   =       0.15608774E-03
+
+   inner iteration  =  1070
+   relative error   =       0.15241051E-03
+
+   inner iteration  =  1080
+   relative error   =       0.14882877E-03
+
+   inner iteration  =  1090
+   relative error   =       0.14534000E-03
+
+   inner iteration  =  1100
+   relative error   =       0.14194150E-03
+
+   inner iteration  =  1110
+   relative error   =       0.13863045E-03
+
+   inner iteration  =  1120
+   relative error   =       0.13540418E-03
+
+   inner iteration  =  1130
+   relative error   =       0.13226025E-03
+
+   inner iteration  =  1140
+   relative error   =       0.12919636E-03
+
+   inner iteration  =  1150
+   relative error   =       0.12621032E-03
+
+   inner iteration  =  1160
+   relative error   =       0.12329995E-03
+
+   inner iteration  =  1170
+   relative error   =       0.12046308E-03
+
+   inner iteration  =  1180
+   relative error   =       0.11769763E-03
+
+   inner iteration  =  1190
+   relative error   =       0.11500158E-03
+
+   inner iteration  =  1200
+   relative error   =       0.11237300E-03
+
+   inner iteration  =  1210
+   relative error   =       0.10981001E-03
+
+   inner iteration  =  1220
+   relative error   =       0.10731082E-03
+
+   inner iteration  =  1230
+   relative error   =       0.10487372E-03
+
+   inner iteration  =  1240
+   relative error   =       0.10249703E-03
+
+   inner iteration  =  1250
+   relative error   =       0.10017909E-03
+
+  convergence achieved in  1251 inner iterations 
+ relative error value =       0.99950467E-04
+
+ izsup = (#nodo)           40
+ fila de proces   indice z inicial    indice z final
+           0          37          40
+           1          33          36
+           2          29          32
+           3          25          28
+           4          21          24
+           5          17          20
+           6          13          16
+           7           9          12
+           8           5           8
+           9           1           4
+ grupo local de procesadores           0           1           2           3
+           4
+ la superficie es el nodo global          40
+ el valor local de izsup es (#elemento para computo
+ de los campos en superficie)           3
+ el aire ocupa           1 elementos en la vertical
+ soy procesador local           0
+ soy procesador local           4
+ soy procesador local           2
+ soy procesador local           3
+ soy procesador local           1
+ z de la sup. en output para campos primarios   176365.000000000     
