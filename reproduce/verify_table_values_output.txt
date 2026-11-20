@@ -1,0 +1,20 @@
+perfomance_18procs 40x40x36     f=0.001  G            ms=8.84    TE=8.6534    TM=8.8358    OK (TM)
+perfomance_18procs 40x40x36     f=0.001  G-POD        ms=0.93    TE=          TM=0.9306    OK (TM)
+perfomance_18procs 40x40x36     f=0.001  DD           ms=2.42    TE=          TM=2.4242    OK (TM)
+perfomance_18procs 40x40x36     f=0.001  DD-POD       ms=0.3     TE=0.3012    TM=          OK (TE)
+perfomance_18procs 80x80x72     f=0.001  G            ms=193.79  TE=191.8903  TM=193.7883  OK (TM)
+perfomance_18procs 80x80x72     f=0.001  G-POD        ms=7.38    TE=          TM=7.381     OK (TM)
+perfomance_18procs 80x80x72     f=0.001  DD           ms=77.18   TE=77.1784   TM=          OK (TE)
+perfomance_18procs 80x80x72     f=0.001  DD-POD       ms=1.98    TE=1.9834    TM=          OK (TE)
+perfomance_72procs 160x160x144  f=0.001  DD           ms=209     TE=          TM=209.1181  OK (TM)
+perfomance_72procs 160x160x144  f=0.001  DD-POD       ms=15.74   TE=15.7379   TM=          OK (TE)
+erformance_40procs 100x100x60   f=0.001  G            ms=198.13  TE=299.3319  TM=301.3309  MISMATCH
+erformance_40procs 100x100x60   f=0.001  G-POD n=50   ms=7.93    TE=          TM=7.9306    OK (TM)
+erformance_40procs 100x100x60   f=0.001  DD           ms=23.16   TE=          TM=23.16     OK (TM)
+erformance_40procs 100x100x60   f=0.001  DD-POD n=50  ms=3.17    TE=          TM=3.1671    OK (TM)
+erformance_40procs 100x100x60   f=10.0   G            ms=190.56  TE=188.896   TM=190.5571  OK (TM)
+erformance_40procs 100x100x60   f=10.0   G-POD n=50   ms=8.06    TE=          TM=8.0597    OK (TM)
+erformance_40procs 100x100x60   f=10.0   DD           ms=24.5    TE=          TM=24.4997   OK (TM)
+erformance_40procs 100x100x60   f=10.0   DD-POD n=50  ms=2.61    TE=          TM=2.6121    OK (TM)
+
+17 of 18 entries match a logged run; 1 do not.

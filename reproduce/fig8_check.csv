@@ -1,0 +1,73 @@
+frequency_Hz,line,n_POD,plotted_s,closest_log_s,log_file,mode,status
+0.001,G-POD,15,6.52,6.5175,svdtiming_nprocs15_ngx100_ngy100_nsy,TM,match
+0.001,G-POD,25,7.0,7.0134,svdtiming_nprocs25_ngx100_ngy100_nsy,TM,typed with fewer digits
+0.001,G-POD,50,7.93,7.9306,svdtiming_nprocs50_ngx100_ngy100_nsy,TM,match
+0.001,G-POD,75,8.94,8.9436,svdtiming_nprocs75_ngx100_ngy100_nsy,TM,match
+0.001,G-POD,100,11.0,10.9935,svdtiming_nprocs100_ngx100_ngy100_ns,TM,match
+0.001,G-POD,125,11.29,11.2864,svdtiming_nprocs125_ngx100_ngy100_ns,TM,match
+0.001,G-POD,150,11.97,11.9738,svdtiming_nprocs150_ngx100_ngy100_ns,TM,match
+0.001,G-POD,175,14.2,14.2224,svdtiming_nprocs175_ngx100_ngy100_ns,TM,typed with fewer digits
+0.001,G-POD,200,16.75,16.7501,svdtiming_nprocs200_ngx100_ngy100_ns,TM,match
+0.001,G-POD - Assemble,15,5.26,5.2611,svdtiming_nprocs15_ngx100_ngy100_nsy,TM,match
+0.001,G-POD - Assemble,25,5.6,5.6174,svdtiming_nprocs25_ngx100_ngy100_nsy,TM,typed with fewer digits
+0.001,G-POD - Assemble,50,6.56,6.562,svdtiming_nprocs50_ngx100_ngy100_nsy,TM,match
+0.001,G-POD - Assemble,75,7.54,7.5462,svdtiming_nprocs75_ngx100_ngy100_nsy,TM,match
+0.001,G-POD - Assemble,100,8.46,8.4637,svdtiming_nprocs100_ngx100_ngy100_ns,TM,match
+0.001,G-POD - Assemble,125,9.54,9.5439,svdtiming_nprocs125_ngx100_ngy100_ns,TM,match
+0.001,G-POD - Assemble,150,10.68,10.6799,svdtiming_nprocs150_ngx100_ngy100_ns,TM,match
+0.001,G-POD - Assemble,175,11.61,11.6164,svdtiming_nprocs175_ngx100_ngy100_ns,TM,match
+0.001,G-POD - Assemble,200,15.12,15.1244,svdtiming_nprocs200_ngx100_ngy100_ns,TM,match
+0.001,DD-POD,15,2.24,2.2424,svdtimingsGUESSnprocs15_ngx100_ngy10,TE,match
+0.001,DD-POD,25,2.51,2.5158,svdtimingsGUESSnprocs25_ngx100_ngy10,TE,match
+0.001,DD-POD,50,3.16,3.1671,svdtimingsGUESSnprocs50_ngx100_ngy10,TM,match
+0.001,DD-POD,75,4.09,4.0797,svdtimingsGUESSnprocs75_ngx100_ngy10,TE,match
+0.001,DD-POD,100,4.94,4.9402,svdtimingsGUESSnprocs100_ngx100_ngy1,TM,match
+0.001,DD-POD,125,5.89,5.8851,svdtimingsGUESSnprocs125_ngx100_ngy1,TM,match
+0.001,DD-POD,150,6.78,6.7873,svdtimingsGUESSnprocs150_ngx100_ngy1,TM,match
+0.001,DD-POD,175,7.55,7.5565,svdtimingsGUESSnprocs175_ngx100_ngy1,TM,match
+0.001,DD-POD,200,9.2,9.2006,svdtimingsGUESSnprocs200_ngx100_ngy1,TE,match
+0.001,DD-POD - Assemble,15,0.45,0.4555,svdtimings_nprocs15_ngx100_ngy100_ns,TM,match
+0.001,DD-POD - Assemble,25,0.53,0.5316,svdtimingsnprocs25_ngx100_ngy100_nsy,TE,match
+0.001,DD-POD - Assemble,50,0.88,0.8858,svdtimings_nprocs50_ngx100_ngy100_ns,TM,match
+0.001,DD-POD - Assemble,75,1.42,1.4217,svdtimings_nprocs75_ngx100_ngy100_ns,TM,match
+0.001,DD-POD - Assemble,100,1.46,1.4599,svdtimings_nprocs100_ngx100_ngy100_n,TM,match
+0.001,DD-POD - Assemble,125,1.91,1.9137,svdtimings_nprocs125_ngx100_ngy100_n,TM,match
+0.001,DD-POD - Assemble,150,2.63,2.6321,svdtimings_nprocs150_ngx100_ngy100_n,TM,match
+0.001,DD-POD - Assemble,175,3.48,3.4814,svdtimings_nprocs175_ngx100_ngy100_n,TE,match
+0.001,DD-POD - Assemble,200,4.04,4.0485,svdtimings_nprocs200_ngx100_ngy100_n,TE,match
+10.0,G-POD,15,6.77,6.7701,svdtiming_nprocs15_ngx100_ngy100_nsy,TM,match
+10.0,G-POD,25,7.04,7.0425,svdtiming_nprocs25_ngx100_ngy100_nsy,TM,match
+10.0,G-POD,50,8.06,8.0597,svdtiming_nprocs50_ngx100_ngy100_nsy,TM,match
+10.0,G-POD,75,9.08,9.0763,svdtiming_nprocs75_ngx100_ngy100_nsy,TM,match
+10.0,G-POD,100,10.12,10.1236,svdtiming_nprocs100_ngx100_ngy100_ns,TM,match
+10.0,G-POD,125,12.38,12.3804,svdtiming_nprocs125_ngx100_ngy100_ns,TM,match
+10.0,G-POD,150,13.46,13.4682,svdtiming_nprocs150_ngx100_ngy100_ns,TM,match
+10.0,G-POD,175,16.107,16.107,svdtiming_nprocs175_ngx100_ngy100_ns,TM,match
+10.0,G-POD,200,17.78,17.7765,svdtiming_nprocs200_ngx100_ngy100_ns,TM,match
+10.0,DD-POD,15,2.0,2.0048,svdtimingsGUESSnprocs15_ngx100_ngy10,TM,match
+10.0,DD-POD,25,2.1,2.1032,svdtimingsGUESSnprocs25_ngx100_ngy10,TE,match
+10.0,DD-POD,50,2.61,2.6104,svdtimingsGUESSnprocs50_ngx100_ngy10,TE,match
+10.0,DD-POD,75,3.26,3.2659,svdtimingsGUESSnprocs75_ngx100_ngy10,TM,match
+10.0,DD-POD,100,3.95,3.9599,svdtimingsGUESSnprocs100_ngx100_ngy1,TM,match
+10.0,DD-POD,125,4.6,4.6043,svdtimingsGUESSnprocs125_ngx100_ngy1,TE,match
+10.0,DD-POD,150,5.33,5.3282,svdtimingsGUESSnprocs150_ngx100_ngy1,TE,match
+10.0,DD-POD,175,6.22,6.2272,svdtimingsGUESSnprocs175_ngx100_ngy1,TM,match
+10.0,DD-POD,200,7.2,7.2037,svdtimingsGUESSnprocs200_ngx100_ngy1,TM,match
+10.0,G-POD - Assemble,15,5.33,5.3388,svdtiming_nprocs15_ngx100_ngy100_nsy,TM,match
+10.0,G-POD - Assemble,25,5.6,5.6016,svdtiming_nprocs25_ngx100_ngy100_nsy,TM,match
+10.0,G-POD - Assemble,50,6.58,6.5814,svdtiming_nprocs50_ngx100_ngy100_nsy,TM,match
+10.0,G-POD - Assemble,75,7.31,7.3048,svdtiming_nprocs75_ngx100_ngy100_nsy,TM,match
+10.0,G-POD - Assemble,100,8.32,8.3289,svdtiming_nprocs100_ngx100_ngy100_ns,TM,match
+10.0,G-POD - Assemble,125,11.06,11.0575,svdtiming_nprocs125_ngx100_ngy100_ns,TM,match
+10.0,G-POD - Assemble,150,12.08,12.0869,svdtiming_nprocs150_ngx100_ngy100_ns,TM,match
+10.0,G-POD - Assemble,175,14.5306,14.5306,svdtiming_nprocs175_ngx100_ngy100_ns,TM,match
+10.0,G-POD - Assemble,200,16.16,16.161,svdtiming_nprocs200_ngx100_ngy100_ns,TM,match
+10.0,DD-POD - Assemble,15,0.45,0.4531,svdtimingsnprocs15_ngx100_ngy100_nsy,TM,match
+10.0,DD-POD - Assemble,25,0.56,0.5573,svdtimingsGUESSnprocs25_ngx100_ngy10,TM,match
+10.0,DD-POD - Assemble,50,0.77,0.7696,svdtimingsGUESSnprocs50_ngx100_ngy10,TE,match
+10.0,DD-POD - Assemble,75,1.05,1.0502,svdtimingsnprocs75_ngx100_ngy100_nsy,TM,match
+10.0,DD-POD - Assemble,100,1.34,1.3449,svdtimingsnprocs100_ngx100_ngy100_ns,TM,match
+10.0,DD-POD - Assemble,125,1.71,1.7112,svdtimingsnprocs125_ngx100_ngy100_ns,TM,match
+10.0,DD-POD - Assemble,150,2.06,2.0562,svdtimingsnprocs150_ngx100_ngy100_ns,TE,match
+10.0,DD-POD - Assemble,175,3.68,3.6777,svdtimingsnprocs175_ngx100_ngy100_ns,TM,match
+10.0,DD-POD - Assemble,200,3.738,3.738,svdtimingsnprocs200_ngx100_ngy100_ns,TE,match

@@ -1,0 +1,11 @@
+# sacct records of the full-order G runs at 100x100x60 (old_code/MT_G_factorized/jobs). Retrieved 2026-11-20.
+# 86103 = G, f = 0.001 Hz, run on 2025-11-17 (response file rho_phase_1.00000E-03Hz_100x100x60_40 written 00:10:26)
+# 87333 = G, f = 10 Hz, run on 2025-12-09 (timing_..._freq10.txt: 190.56 s)
+JobID                     JobName               Start                 End    Elapsed   NNodes      NCPUS      State 
+------------ -------------------- ------------------- ------------------- ---------- -------- ---------- ---------- 
+86103          mt_monolithic_test 2025-11-17T00:07:07 2025-11-17T00:10:27   00:03:20        8        512  COMPLETED 
+87333          mt_monolithic_test 2025-12-09T14:18:47 2025-12-09T14:21:59   00:03:12        2        128  COMPLETED 
+
+# output file times on the cluster
+2025-11-17 00:10:26 ~/old_code/MT_G_factorized/outputs/rho_phase_1.00000E-03Hz_100x100x60_40
+2025-12-09 14:21:59 ~/old_code/MT_G_factorized/outputs/timing_nprocs40_ngx100_ngy100_nsy1_nsz1_TE_freq10.txt

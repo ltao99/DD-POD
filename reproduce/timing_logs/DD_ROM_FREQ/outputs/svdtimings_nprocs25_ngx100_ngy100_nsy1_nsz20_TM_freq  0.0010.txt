@@ -1,0 +1,23 @@
+Frequency (Hz):              0.0010
+Processes:                   40
+Mode:                    TM
+Mesh size (ngx, ngy, ngz):    100    100     60
+Subdomains (nsy, nsz):          1     20
+Iterations:                    136
+Read Model (ONCE) (s):            0.1547
+Nodes Time (ONCE) (s):            0.0008
+Basis Time (ONCE) (s):           32.3634
+Source Time (ONCE) (s):           0.0145
+Assembly Time (ONCE) (s):         0.5372
+Compute Coef Time (ONCE) (s):     0.0021
+Analysis and Factor (s):          0.0124
+Solve Time (s):                   0.0079
+Communication Time (s):           0.4845
+RHS Time (s):                     0.5379
+x Projection Time (s):            0.4252
+Mapping Time (s):                 0.2319
+Calc Error Time (s):              0.0407
+Gather Time (s):                  0.0022
+Output Time (s):                  0.2452
+Overhead Time (s):                0.0940
+Total Time (s):                   2.7913

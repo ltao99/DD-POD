@@ -1,6 +1,6 @@
 # ======================= Paths ============================
-PATHLIB       = /clonetroop/dasilva/libs
-PATHCOMPILER  = /clonetroop/dasilva/libs
+PATHLIB       ?= $(HOME)/libs
+PATHCOMPILER  ?= $(PATHLIB)
 PATHMUMPS     = $(PATHLIB)
 PATHMETIS     = $(PATHLIB)
 PATHMPI       = $(PATHCOMPILER)/bin
@@ -25,7 +25,7 @@ PATHLASC      = $(PATHLIB)
 LIB_SPBLAS    = $(PATHLIB)
 
 # Intel MKL path
-MKLROOT ?= /clonetroop/software/intel/oneapi/mkl/latest
+MKLROOT ?= /opt/intel/oneapi/mkl/latest
 
 # ======================= Compiler and Flags ==============
 FC       = $(MPI_BIN)/mpif90

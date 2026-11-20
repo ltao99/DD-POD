@@ -1,0 +1,1 @@
+144 of 144 plotted points of Figs. 10/11 reproduce (worst difference 5.0e-07 percentage points).
