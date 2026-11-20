@@ -1,0 +1,73 @@
+fig,line,x,y
+computational_performance_001,G-POD,15,6.5200
+computational_performance_001,G-POD,25,7.0000
+computational_performance_001,G-POD,50,7.9300
+computational_performance_001,G-POD,75,8.9400
+computational_performance_001,G-POD,100,11.0000
+computational_performance_001,G-POD,125,11.2900
+computational_performance_001,G-POD,150,11.9700
+computational_performance_001,G-POD,175,14.2000
+computational_performance_001,G-POD,200,16.7500
+computational_performance_001,G-POD - Assemble,15,5.2600
+computational_performance_001,G-POD - Assemble,25,5.6000
+computational_performance_001,G-POD - Assemble,50,6.5600
+computational_performance_001,G-POD - Assemble,75,7.5400
+computational_performance_001,G-POD - Assemble,100,8.4600
+computational_performance_001,G-POD - Assemble,125,9.5400
+computational_performance_001,G-POD - Assemble,150,10.6800
+computational_performance_001,G-POD - Assemble,175,11.6100
+computational_performance_001,G-POD - Assemble,200,15.1200
+computational_performance_001,DD-POD,15,2.2400
+computational_performance_001,DD-POD,25,2.5100
+computational_performance_001,DD-POD,50,3.1600
+computational_performance_001,DD-POD,75,4.0900
+computational_performance_001,DD-POD,100,4.9400
+computational_performance_001,DD-POD,125,5.8900
+computational_performance_001,DD-POD,150,6.7800
+computational_performance_001,DD-POD,175,7.5500
+computational_performance_001,DD-POD,200,9.2000
+computational_performance_001,DD-POD - Assemble,15,0.4500
+computational_performance_001,DD-POD - Assemble,25,0.5300
+computational_performance_001,DD-POD - Assemble,50,0.8800
+computational_performance_001,DD-POD - Assemble,75,1.4200
+computational_performance_001,DD-POD - Assemble,100,1.4600
+computational_performance_001,DD-POD - Assemble,125,1.9100
+computational_performance_001,DD-POD - Assemble,150,2.6300
+computational_performance_001,DD-POD - Assemble,175,3.4800
+computational_performance_001,DD-POD - Assemble,200,4.0400
+computational_performance_10,G-POD,15,6.7700
+computational_performance_10,G-POD,25,7.0400
+computational_performance_10,G-POD,50,8.0600
+computational_performance_10,G-POD,75,9.0800
+computational_performance_10,G-POD,100,10.1200
+computational_performance_10,G-POD,125,12.3800
+computational_performance_10,G-POD,150,13.4600
+computational_performance_10,G-POD,175,16.1070
+computational_performance_10,G-POD,200,17.7800
+computational_performance_10,DD-POD,15,2.0000
+computational_performance_10,DD-POD,25,2.1000
+computational_performance_10,DD-POD,50,2.6100
+computational_performance_10,DD-POD,75,3.2600
+computational_performance_10,DD-POD,100,3.9500
+computational_performance_10,DD-POD,125,4.6000
+computational_performance_10,DD-POD,150,5.3300
+computational_performance_10,DD-POD,175,6.2200
+computational_performance_10,DD-POD,200,7.2000
+computational_performance_10,G-POD - Assemble,15,5.3300
+computational_performance_10,G-POD - Assemble,25,5.6000
+computational_performance_10,G-POD - Assemble,50,6.5800
+computational_performance_10,G-POD - Assemble,75,7.3100
+computational_performance_10,G-POD - Assemble,100,8.3200
+computational_performance_10,G-POD - Assemble,125,11.0600
+computational_performance_10,G-POD - Assemble,150,12.0800
+computational_performance_10,G-POD - Assemble,175,14.5306
+computational_performance_10,G-POD - Assemble,200,16.1600
+computational_performance_10,DD-POD - Assemble,15,0.4500
+computational_performance_10,DD-POD - Assemble,25,0.5600
+computational_performance_10,DD-POD - Assemble,50,0.7700
+computational_performance_10,DD-POD - Assemble,75,1.0500
+computational_performance_10,DD-POD - Assemble,100,1.3400
+computational_performance_10,DD-POD - Assemble,125,1.7100
+computational_performance_10,DD-POD - Assemble,150,2.0600
+computational_performance_10,DD-POD - Assemble,175,3.6800
+computational_performance_10,DD-POD - Assemble,200,3.7380

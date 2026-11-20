@@ -1,0 +1,8 @@
+mesh,solver,reference,rho_xy_calc,phi_xy_calc,rho_yx_calc,phi_yx_calc,rho_xy_ms,phi_xy_ms,rho_yx_ms,phi_yx_ms,status,response_file_rxy
+40x40x36,G-POD,G,0.4740,0.2630,0.0686,0.0271,0.47,0.26,0.07,0.03,OK,rxy_y_fase_freq= 0.0010Hz_ngx40_ngy40_ngz36_np2_NS15_tol1.0e-03_relx0.000_penal1.000_maxit1_conv5.0e-04_svd.txt
+40x40x36,DD,G,0.5842,0.3477,0.4707,0.2196,0.58,0.35,0.47,0.22,OK,rxy_y_fase_freq= 0.0010Hz_ngx40_ngy40_ngz36_np18.txt
+40x40x36,DD-POD,G,0.6795,0.4999,0.5356,0.2195,0.68,0.5,0.54,0.22,OK,rxy_y_fase_freq= 0.0010Hz_ngx40_ngy40_ngz36_np18_NS125_tol1.0e-03_relx0.050_penal0.050_maxit999_conv5.0e-04_svd.txt
+80x80x72,G-POD,G,0.2903,0.0772,0.0591,0.0499,0.29,0.08,0.06,0.05,OK,rxy_y_fase_freq= 0.0010Hz_ngx80_ngy80_ngz72_np2_NS15_tol1.0e-03_relx0.000_penal1.000_maxit1_conv5.0e-04_svd.txt
+80x80x72,DD,G,0.5322,0.3284,0.4110,0.2033,0.53,0.33,0.41,0.2,OK,rxy_y_fase_freq= 0.0010Hz_ngx80_ngy80_ngz72_np18_beta005.txt
+80x80x72,DD-POD,G,0.6479,0.4675,0.4974,0.2329,0.65,0.47,0.5,0.23,OK,rxy_y_fase_freq= 0.0010Hz_ngx80_ngy80_ngz72_np18_NS125_tol1.0e-03_relx0.050_penal0.050_maxit999_conv5.0e-04_svd.txt
+160x160x144,DD-POD,DD,0.3744,0.1683,0.1375,0.0601,0.37,0.17,0.14,0.06,OK,rxy_y_fase_freq= 0.0010Hz_ngx160_ngy160_ngz144_np72_NS125_tol1.0e-03_relx0.050_penal0.050_maxit999_conv1.0e-04_svd.txt

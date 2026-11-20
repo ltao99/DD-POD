@@ -1,0 +1,7 @@
+f=0.001 Hz, n_POD=50: text G-POD 3.22, DD-POD 6.23 | recomputed G-POD vs G 3.22, DD-POD vs G 6.23 (vs DD 6.05) -> text matches (reference G)
+f=10 Hz, n_POD=50: text G-POD 3.06, DD-POD 3.69 | recomputed G-POD vs G 3.06, DD-POD vs G 3.69 (vs DD 4.31) -> text matches (reference G)
+f=0.001 Hz, n_POD=200: text G-POD 0.99, DD-POD 4.91 | recomputed G-POD vs G 0.99, DD-POD vs G 4.91 (vs DD 5.78) -> text matches (reference G)
+f=10 Hz, n_POD=200: text G-POD 1.55, DD-POD 3.11 | recomputed G-POD vs G 1.55, DD-POD vs G 3.11 (vs DD 3.96) -> text matches (reference G)
+
+All quoted maxima correspond to errors against G.
+The curves plotted in Figs. 10/11 of this manuscript are the same errors against G (see verify_fig10_11_errors.py: 144 of 144 points reproduce).

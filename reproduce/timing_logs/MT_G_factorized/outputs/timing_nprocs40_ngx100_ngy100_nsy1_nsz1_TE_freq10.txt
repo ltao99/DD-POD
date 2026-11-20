@@ -1,0 +1,17 @@
+Frequency (Hz):                         10.0000
+Processes:                               40
+Mode:                                TE
+Mesh size (ngx, ngy, ngz):              100    100     60
+Assembly Time (s):                       4.6305
+Analysis and Factorization Time (s):   179.4399
+Solve Time (s):                          2.4261
+Total Time (s):                        188.8960
+Frequency (Hz):                         10.0000
+Processes:                               40
+Mode:                                TM
+Mesh size (ngx, ngy, ngz):              100    100     60
+Assembly Time (s):                       4.6305
+Analysis and Factorization Time (s):   179.4399
+Solve Time (s):                          1.0735
+Output Time (s):                         0.2182
+Total Time (s):                        190.5571

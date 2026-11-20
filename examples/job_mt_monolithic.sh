@@ -15,8 +15,9 @@ echo "Running on nodes: $SLURM_NODELIST"
 cd $SLURM_SUBMIT_DIR
 
 ########## ENVIRONMENT ##########
-export PATH=/clonetroop/dasilva/libs/bin:$PATH
-export LD_LIBRARY_PATH=/clonetroop/dasilva/libs/lib:$LD_LIBRARY_PATH
+export LIBS=${LIBS:-$HOME/libs}   # directory with MPI, MUMPS, METIS (set LIBS before submitting)
+export PATH=$LIBS/bin:$PATH
+export LD_LIBRARY_PATH=$LIBS/lib:$LD_LIBRARY_PATH
 
 ########## THREADING CONFIGURATION ##########
 # Disable OpenMP in your code

@@ -1,10 +1,15 @@
 # Accelerating 3D Magnetotelluric Forward Modelling with Domain Decomposition and Order-Reduction Methods
 
 **Authors/Information:** Luis Tao and Fabio Zyserman  
-**Paper reference:** (https://doi.org/10.31223/X5JV1C)
+**Paper reference:** Tao, L. and Zyserman, F.: Accelerating 3D magnetotelluric forward modelling with domain decomposition and order reduction methods, EGUsphere preprint egusphere-2026-700, submitted to Geoscientific Model Development (earlier preprint: https://doi.org/10.31223/X5JV1C).  
+**Archive:** every release of this repository is archived on Zenodo; all versions: https://doi.org/10.5281/zenodo.19566290
 
 ## Abstract
 This repository contains the source code, sample setups, and data for the 3D Magnetotelluric (MT) forward modelling code utilizing Domain Decomposition (DD) and Proper Orthogonal Decomposition (POD) techniques. The purpose of this software is to speed up complex 3D MT simulations by reducing the order of the problem while preserving acceptable accuracy in apparent resistivity and phase. 
+
+## Scope of this release
+
+This repository contains the **domain-decomposition (DD) solver and its reduced-order extension (DD-POD)** that are the subject of the paper. The global full-order solver (G) and the global reduced-order solver (G-POD) that are used in the paper as references are **not** part of this code. Their results (surface responses and timing logs) are provided as output files in `reproduce/`, so that every table and figure can be checked, but they cannot be re-run with this code.
 
 ## Technical Context: Domain Decomposition & POD
 The computational domain of the 3D MT forward modelling is computationally expensive, forming a large-scale linear system. To efficiently solve it the following methods are employed:
@@ -30,8 +35,8 @@ Defines the conductivity distribution (in S/m) of each element in the 3D mesh (X
 
 ### 4. `MOD_Constants.f90` (Physical Constants & Hyperparameters)
 Controls full-order or reduced-order flags and DD hyper-parameters:
-* `usepod`: Set to `.TRUE.` for Reduced-Order Modelling, `.FALSE.` for Full-Order.
-* **POD settings**: `Nsnapshots` (number of snapshots), `tolsvd` (SVD truncation tolerance), `podpath` (directory for snapshot matrices folder.
+* `use_pod`: Set to `.TRUE.` for Reduced-Order Modelling, `.FALSE.` for Full-Order.
+* **POD settings**: `Nsnapshots` (number of snapshots), `tol_svd` (SVD truncation tolerance), `pod_path` (directory for snapshot matrices folder.
 * **DD settings**: `relx` (relaxation parameter), `penal` (penalization factor), `maxiter`, and `convergence_tol`.
 
 ## Outputs
@@ -45,7 +50,28 @@ The solver evaluates the physical quantities and dumps them to the outputs direc
 * **`src/`**: Fortran source code `*.f90`.
 * **`examples/`**: Contains configurations (`conduc_input`, `input_mesh_MT`), scripts (`job_mt_monolithic.sh`), and standard parameter setups for 20x20x18, 40x40x36, and 80x80x72 mesh executions. Those example folders define the inputs to generate full-order models.
 * **`data/`**: Stores the snapshots databases. `data/20x20x18/Snapshots` contains the high-fidelity state snapshots required to deploy the POD-based reduction.
+* **`cases/`**: inputs (conductivity model, mesh, frequency) and the run settings of the two largest cases of the paper (160x160x144 and the real-world 100x100x60 model), and `CASES.md`, which lists the settings of all cases. The conductivity files are gzip-compressed.
+* **`reproduce/`**: the small output files (surface responses, timing logs, Slurm accounting) from which the tables and figures of the paper are built, the scripts that check them, and `INDEX.md`, which names for every table and figure the file that contains its values.
 * **`docs/`**: Includes the full PDF `Code_Guide.pdf` for extended context.
+
+**Snapshots and POD bases.** Only the snapshots of the 20x20x18 example are included. The snapshot matrices and bases of the larger cases are far too large to archive (about 30 GB for 80x80x72 and 200-370 GB per case for 100x100x60 and 160x160x144). They are produced by full-order DD solves (`usepod = .FALSE.`) of the snapshot conductivity models; the files that are read by the reduced-order runs are named `sol_<TE|TM>_<subdomain>svd.txt` (see `src/read_basis.f90`).
+
+## Note on the code version
+
+The results of the paper were produced with development versions of this code that also allowed a decomposition along y (`nsy > 1`) and used other output file names. For the decomposition used in the paper (`nsy = 1`) the additional y-interface loops are empty. The comparison of the sources is documented in `reproduce/CODE_COMPARISON.md`; the release has not been re-run against the saved responses.
+
+## Reproducing the tables and figures of the paper
+
+```bash
+cd reproduce
+python3 verify_table_values.py            # computing-time tables against the run logs
+python3 verify_benchmark_error_table.py    # benchmark error tables against the saved responses
+python3 verify_fig8_times.py               # Fig. 8
+python3 verify_fig10_11_errors.py          # Figs. 10 and 11
+python3 verify_text_error_numbers.py       # error maxima quoted in the text
+```
+
+These scripts need Python 3 with `numpy` and read only the files in `reproduce/`. `reproduce/INDEX.md` lists, for each table and figure, the file that contains the plotted or printed value, and states what is **not** covered: one computing time (G at 100x100x60 and 0.001 Hz) has no log file, and Figs. 1-5 and the hyperparameter study are not covered. The MATLAB scripts in `reproduce/figure_scripts/` draw the figures; they still contain absolute paths of the authors' machine.
 
 ## Prerequisites
 - **Fortran Compiler:** Intel `mpif90` / Intel oneAPI
@@ -54,7 +80,7 @@ The solver evaluates the physical quantities and dumps them to the outputs direc
 - **MUMPS & PARMETIS/METIS:** For the distributed sparse direct solver
 
 ## Installation & Usage
-1. Configure build environment: Review `Makefile` paths (`PATHLIB`, `MKLROOT`, `PATHCOMPILER`) to match your compiler deployment.
+1. Configure build environment: the `Makefile` paths are variables with defaults; set them on the command line or in the environment, e.g. `make PATHLIB=/path/to/libs MKLROOT=/path/to/mkl` (`PATHLIB` must contain the MUMPS, METIS/ParMETIS and ScaLAPACK libraries; MUMPS 5.1.2 was used for the paper).
 2. Build the program: `make`
 3. Execute via MPI. For instance, `nsy=1` and `nsz=3` uses 6 processes:
 ```bash

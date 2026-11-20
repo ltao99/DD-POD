@@ -1,0 +1,1 @@
+72 plotted values: 69 match a log, 3 match to the digits typed, 0 do not
